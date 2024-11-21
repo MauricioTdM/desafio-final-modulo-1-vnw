@@ -1,0 +1,20 @@
+.card {
+    background-color: #0157944D;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    width: 19.8vw;
+    height: 35.6vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3vh;
+    border-radius: 10px;
+    img {
+        width: 6.9vw;
+    }
+    p {
+        margin: 2vw;
+    }
+}

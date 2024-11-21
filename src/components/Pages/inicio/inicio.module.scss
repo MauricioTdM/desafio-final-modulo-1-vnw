@@ -1,0 +1,29 @@
+.banner {
+    height: 60.2vh;
+    background-image: url('../../../assets/banner.png');
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    h2 {
+        color: #FFFFFF;
+        font-size: 32px;
+        font-weight: 700;
+        width: 24.4vw;
+    }
+}
+
+.title {
+    height: 60.2vh;
+    font-weight: 500;
+    color: #005695;
+    h2 {
+        padding: 3vw;
+        margin-left: 2vw;
+        font-size: 40px;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
