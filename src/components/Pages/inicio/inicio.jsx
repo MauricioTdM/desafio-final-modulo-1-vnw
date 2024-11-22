@@ -7,7 +7,7 @@ import balanca from '../../../assets/balanca.png'
 
 export default function main() {
     return(
-        <main className={S}>
+        <>
             <section className={S.banner}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
@@ -16,22 +16,22 @@ export default function main() {
                 <div>
                     <Card 
                         imagem={comunidade}
-                        textoAcessibilidade="Imagem representando a comunidade"
-                        textoCard="Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social."/>
+                        textoAcessibilidade={"Imagem representando a comunidade"}
+                        textoCard={"Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social."}/>
                     <Card 
                         imagem={leitura}
-                        textoAcessibilidade="Pessoa lendo livro"
-                        textoCard="Estimula o hábito da leitura e o aprendizado contínuo."/>
+                        textoAcessibilidade={"Pessoa lendo livro"}
+                        textoCard={"Estimula o hábito da leitura e o aprendizado contínuo."}/>
                     <Card 
                         imagem={transformacao}
-                        textoAcessibilidade="Imagem representando a transformação"
-                        textoCard="Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."/>
+                        textoAcessibilidade={"Imagem representando a transformação"}
+                        textoCard={"Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas."}/>
                     <Card 
                         imagem={balanca}
-                        textoAcessibilidade="Imagem de uma balança"
-                        textoCard="Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."/>
+                        textoAcessibilidade={"Imagem de uma balança"}
+                        textoCard={"Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado."}/>
                 </div>
             </section>
-        </main>
+        </>
     )
 }

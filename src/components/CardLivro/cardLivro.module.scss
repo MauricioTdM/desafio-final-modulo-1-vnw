@@ -1,0 +1,22 @@
+.link {
+    border: solid 3px #005695;
+    border-radius: 20px;
+    width: 17vw;
+    height: 29.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+    img {
+        width: 7.5vw;
+    }
+}
+
+.info {
+    text-align: center;
+    width: 80%;
+    p {
+        padding: 1%;
+    }
+}
