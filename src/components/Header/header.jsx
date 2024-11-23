@@ -18,13 +18,13 @@ export default function header(){
                 <nav className={S.navBox}>
                     <ul>
                         <li>
-                            <Link className={S.link} to='/'>Início</Link>
+                            <Link to='/'>Início</Link>
                         </li>
                         <li>
-                            <Link className={S.link} to='/livrosdoados'>Livros Doados</Link>
+                            <Link to='/livrosdoados'>Livros Doados</Link>
                         </li>
                         <li>
-                            <Link className={S.link} to='/querodoar'>Quero Doar</Link>
+                            <Link to='/querodoar'>Quero Doar</Link>
                         </li>
                     </ul>
                 </nav>

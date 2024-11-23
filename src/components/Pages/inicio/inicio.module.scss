@@ -1,6 +1,8 @@
 .banner {
     height: 60.2vh;
     background-image: url('../../../assets/banner.png');
+    background-repeat: no-repeat;
+    // background-size: contain; //Pode ser cover ou contain, o primeiro corre risco de cortar a imagem, já o segundo, a imagem preenche todo o container
     display: flex;
     align-items: center;
     padding-left: 8vw;

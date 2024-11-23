@@ -28,11 +28,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        a {
+            color: #FFFFFF;
+        }
     }
-}
-
-.link {
-    color: #FFFFFF;
 }
 
 .searchBox {
@@ -45,9 +44,12 @@
     justify-content: space-around;
     input {
         border: none;
+        outline: none;
         background-color: transparent;
         width: 70%;
         height: 5vh;
+        color: #FFFFFF;
+        font-size: 15px;
         &::placeholder {
             color: #FFFFFF;
             font-size: 20px;
