@@ -12,7 +12,7 @@ export default function footer(){
                 <div>
                     <p>4002-8922</p>
                 </div>
-                <div className={S.redesSociais}>
+                <nav className={S.redesSociais}>
                     <ul>
                         <li><a href=""><img src={facebook_logo} alt="Logo do Facebook" /></a></li>
                         <li><a href=""><img src={twitter_logo} alt="Logo do Twitter" /></a></li>
@@ -20,7 +20,7 @@ export default function footer(){
                         <li><a href="https://www.linkedin.com/in/mauricio-tavares-de-melo-076489230/"><img src={linkedin_logo} alt="Logo do Linkedin" /></a></li>
                         <li><a href="https://www.instagram.com/mauricio.t.melo/"><img src={instagram_logo} alt="Logo do Instagram" /></a></li>
                     </ul>
-                </div>
+                </nav>
             </section>
             <section className={S.direitos}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>

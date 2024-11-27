@@ -4,6 +4,13 @@
     h2 {
         font-size: 32px;
         font-weight: 700;
+        @media (max-width: 425px){
+            font-size: 20px;
+        }
+        @media (max-width: 390px){
+            font-size: 32px;
+            padding: 4% 0;        
+        }
     }
 }
 
@@ -11,4 +18,12 @@
     height: 80vh;
     display: flex;
     margin: 0 5%;
+    @media (max-width: 425px){
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 20%;     
+    }
+    @media (max-width: 390px){
+        justify-content: center;           
+    }
 }
