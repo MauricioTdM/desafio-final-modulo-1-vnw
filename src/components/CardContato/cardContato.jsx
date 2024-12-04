@@ -15,7 +15,7 @@ export default function cardContato() {
                     <input type="text" placeholder="Autor"/>
                     <input type="text" placeholder="Link da Imagem"/>
                 </div>
-                <button type="submit">Doar</button>
+                <input className={S.doar} type="submit" value="Doar" />
             </form>
         </section>
     )
