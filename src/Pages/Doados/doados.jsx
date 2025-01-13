@@ -1,5 +1,5 @@
 import S from "./doados.module.scss"
-import CardsLivros from "../../Components/CardsLivros/cardsLivros"
+import CardsLivros from "../../Components/CardsLivros/cardsLivros.jsx"
 import ImgLivro1 from '../../assets/livroProtagonista.png'
 import ImgLivro2 from '../../assets/livroDataScience.jpg'
 import ImgLivro3 from '../../assets/livroPaiRico.jpg'
