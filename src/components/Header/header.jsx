@@ -1,21 +1,20 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Inicio from '../Pages/inicio/inicio';
-import LivrosDoados from '../Pages/livrosDoados/livrosDoados';
-import QueroDoar from '../Pages/queroDoar/queroDoar';
+import S from './header.module.scss'
 import logo from '../../assets/logo.png'
 import lupa from '../../assets/lupa.png'
-import S from './header.module.scss'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Inicio from '../../Pages/Inicio/inicio'
+import LivrosDoados from '../../Pages/Doados/doados'
+import QueroDoar from '../../Pages/QueroDoar/queroDoar'
 
-
-export default function header(){
+export default function Header() {
     return(
         <BrowserRouter>
             <header className={S.header}>
                 <section>
-                    <img className={S.imgLogo} src={logo} alt="Logo do site sendo um livro aberto" />
+                    <img src={logo} alt="Logo do site" />
                     <h1>Livros Vai na Web</h1>
                 </section>
-                <nav className={S.navBox}>
+                <nav>
                     <ul>
                         <li>
                             <Link to='/'>Início</Link>
@@ -28,11 +27,9 @@ export default function header(){
                         </li>
                     </ul>
                 </nav>
-                <div className={S.searchBox}>
-                    <input type="search" placeholder='O que você procura?' />
-                    <button>
-                        <img src={lupa} alt="Imagem de uma lupa" />
-                    </button>
+                <div className={S.boxInput}>
+                    <input type="text" placeholder='O que você procura?' />
+                    <img src={lupa} alt="Imagem de uma lupa" />
                 </div>
             </header>
             <Routes>

@@ -1,7 +1,7 @@
-import Header from './components/Header/header'
-import Footer from './components/Footer/footer'
-import './components/GlobalStyle/global.scss'
-// TODO: Fazer o responsivo
+import './GlobalStyle/global.scss'
+import Header from './Components/Header/header'
+import Footer from './Components/Footer/footer'
+
 
 export default function App() {
     return(

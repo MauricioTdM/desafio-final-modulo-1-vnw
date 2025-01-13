@@ -1,28 +1,25 @@
 import S from './footer.module.scss'
-import facebook_logo from '../../assets/facebook_logo.png'
-import twitter_logo from '../../assets/twitter_logo.png'
-import youtube_logo from '../../assets/youtube_logo.png'
-import linkedin_logo from '../../assets/linkedin_logo.png'
-import instagram_logo from '../../assets/instagram_logo.png'
+import Facebook from '../../assets/facebook.png'
+import Twitter from '../../assets/twitter.png'
+import Youtube from '../../assets/youtube.png'
+import Linkedin from '../../assets/linkedin.png'
+import Instagram from '../../assets/instagram.png'
 
-export default function footer(){
+
+export default function Footer() {
     return(
         <footer className={S.footer}>
-            <section className={S.contatos}>
-                <div>
-                    <p>4002-8922</p>
-                </div>
-                <nav className={S.redesSociais}>
-                    <ul>
-                        <li><a href=""><img src={facebook_logo} alt="Logo do Facebook" /></a></li>
-                        <li><a href=""><img src={twitter_logo} alt="Logo do Twitter" /></a></li>
-                        <li><a href=""><img src={youtube_logo} alt="Logo do Youtube" /></a></li>
-                        <li><a href="https://www.linkedin.com/in/mauricio-tavares-de-melo-076489230/"><img src={linkedin_logo} alt="Logo do Linkedin" /></a></li>
-                        <li><a href="https://www.instagram.com/mauricio.t.melo/"><img src={instagram_logo} alt="Logo do Instagram" /></a></li>
-                    </ul>
+            <section className={S.contacts}>
+                <h3>4002-8922</h3>
+                <nav>
+                    <a href=""><img src={Facebook} alt="Logo do Facebook" /></a>
+                    <a href=""><img src={Twitter} alt="Logo do Twitter" /></a>
+                    <a href=""><img src={Youtube} alt="Logo do YouTube" /></a>
+                    <a href=""><img src={Linkedin} alt="Logo do Linkedin" /></a>
+                    <a href=""><img src={Instagram} alt="Logo do Instagram" /></a>
                 </nav>
             </section>
-            <section className={S.direitos}>
+            <section className={S.rights}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </section>
         </footer>
