@@ -4,7 +4,6 @@ import ImgLivro1 from '../../assets/livroProtagonista.png'
 import ImgLivro2 from '../../assets/livroDataScience.jpg'
 import ImgLivro3 from '../../assets/livroPaiRico.jpg'
 
-
 export default function Doados() {
     return(
         <main className={S.main}>
